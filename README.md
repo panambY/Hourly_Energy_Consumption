@@ -15,12 +15,18 @@ The regions have changed over the years so data may only appear for certain date
 
 This is a Kaggle dataset which can be found in this link: https://www.kaggle.com/robikscube/hourly-energy-consumption
 
+<p align="center">
+  <img src="https://github.com/panambY/Hourly_Energy_Consumption/blob/master/image/power_electric_plant.jpg">
+</p>
+
 I followed in this project the steps of the project management method called CRISP-DM. This method has undergone modifications aimed at the reality of a Data Science project and with that it was called CRISP-DS.
 
 CRISP-DS has the following steps with their respective courts:
 
 ## 1 - Business Question
+Predict how much energy the power companies in the datasets will consume in the next 12 months.<br>
 ## 2 - Understanding the Business
+This forecast will be used to plan companies in relation to the investments necessary for the expansion and maintenance of their power plants. <br>
 ## 3 - Data Collection
 **0.0 - IMPORTS** <br>
 	0.1 - Helper Function <br>
