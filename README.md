@@ -23,15 +23,15 @@ I followed in this project the steps of the project management method called CRI
 
 CRISP-DS has the following steps with their respective courts:
 
-## 1 - Business Question
+### 1 - Business Question
 Predict how much energy the power companies in the datasets will consume in the next 12 months.<br>
-## 2 - Understanding the Business
+### 2 - Understanding the Business
 This forecast will be used to plan companies in relation to the investments necessary for the expansion and maintenance of their power plants. <br>
-## 3 - Data Collection
+### 3 - Data Collection
 **0.0 - IMPORTS** <br>
 	0.1 - Helper Function <br>
 	0.2 - Loading Data <br>
-## 4 - Data Cleaning
+### 4 - Data Cleaning
 **1.0 - DESCRIPTION OF DATA** <br>
 	1.1 - Rename Columns <br>
 	1.2 - Data Dimensions <br>
@@ -52,7 +52,7 @@ This forecast will be used to plan companies in relation to the investments nece
 **3.0 - VARIABLE FILTERING** <br>
 	3.1 - Line filtering <br>
 	3.2 - Column Selection <br>
-## 5 - Data Exploration
+### 5 - Data Exploration
 **4.0 - EXPLORATORY DATA ANALYSIS** <br>
 	4.1 - Univariate Analysis <br>
 		- 4.1.1 - Response Variable <br>
@@ -63,7 +63,7 @@ This forecast will be used to plan companies in relation to the investments nece
 	4.3 - Multivariate Analysis <br>
 		- 4.3.1 - Numerical Attributes <br>
 		- 4.3.2 - Categorical Attributes <br>
-## 6 - Data Modeling
+### 6 - Data Modeling
 **5.0 - DATA PREPARATION** <br>
 	5.1 - Normalization <br>
 	5.2 - Rescaling <br>
@@ -75,7 +75,7 @@ This forecast will be used to plan companies in relation to the investments nece
 	6.1 - Split dataframe into training and test dataset <br>
 	6.2 - Boruta as Feature Selection <br>
 		- 6.2.1 - Best Feature from Boruta  <br>
-## 7 - Machine Learning Algorithms
+### 7 - Machine Learning Algorithms
 **7.0 - MACHINE LEARNING MOMDELLING** <br>
 	7.1 - Average Model <br>
 	7.2 - Linear Regression Model <br>
@@ -92,12 +92,12 @@ This forecast will be used to plan companies in relation to the investments nece
 **8.0 - HYPERPARAMETER FINE TUNING** <br>
 	8.1 - Random Search <br>
 	8.2 - Final Model <br>
-## 8 - Evaluation of Algorithms
+### 8 - Evaluation of Algorithms
 **9.0 - TRANSLATION AND INTERPRETATION OF THE ERROR** <br>
 	9.1 - Business Performance <br>
 	9.2 - Total Performance <br>
 	9.3 - Machine Learning Performance <br>
-## 9 - Production Model
+### 9 - Production Model
 **10.0 - DEPLOY MODEL TO PRODUCTION** <br>
 	10.1 - Energy Consumption Class <br>
 	10.2 - API Handler <br>
